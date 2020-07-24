@@ -1,6 +1,11 @@
 /* Global */
 body{
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+html{
+	border-top: 17px solid black;
 }
 
 /* Header */
@@ -10,12 +15,23 @@ body{
 }
 
 #header{
-	margin: 20px 0 15px;
+	padding: 20px 0 15px;
+	border-bottom: 1px solid #c0c0c0;
 }
 
 #nav{
 	float: right;
 	width: 655px;
+	position: relative;
+}
+
+#nav-link-email{
+	font-size: 13px;
+	color: #999898;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 #nav-list{
