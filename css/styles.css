@@ -8,15 +8,27 @@ html{
 	border-top: 17px solid black;
 }
 
+/* Helpers */
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.block-border{
+	padding: 20px 0 15px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
 /* Header */
 #logo{
 	float: left;
 	width: 183px;
-}
-
-#header{
-	padding: 20px 0 15px;
-	border-bottom: 1px solid #c0c0c0;
 }
 
 #nav{
@@ -63,16 +75,4 @@ html{
 	color: #fe9b00;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
-/* Helpers */
-.wrapper{
-	width: 960px;
-	margin: 0 auto;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
