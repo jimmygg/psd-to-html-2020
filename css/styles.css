@@ -5,7 +5,18 @@ body{
 }
 
 html{
-	border-top: 17px solid black;
+	border-top: 17px solid #090909;
+}
+
+h2{
+	font-size: 18px;
+	color: #090909;
+	border-bottom: 6px solid #090909;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	background-image: url('../img/arrow.png');
+	background-repeat: no-repeat;
+	background-position: 0 7px;
 }
 
 /* Helpers */
@@ -75,4 +86,26 @@ html{
 	color: #fe9b00;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+/* Main content */
+#mainContent p{
+	color: #5d5d5d;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#box-benefits-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 280px;
+	float: left;
+}
+
+.box + .box{
+	margin-left: 60px;
 }
