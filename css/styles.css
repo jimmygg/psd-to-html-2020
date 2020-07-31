@@ -7,12 +7,29 @@ body{
 
 h2{
 	font-size: 18px;
+	padding-left: 30px;
+	background-position: 0 7px;
+}
+
+h3{
+	font-size: 12px;
+	padding-left: 23px;
+	background-size: 8px;
+	background-position: 0 5px;
+}
+
+h2,h3{
+	text-transform: uppercase;
 	color: #090909;
 	padding-bottom: 12px;
-	padding-left: 20px;
 	background-image: url('../img/arrow.png');
 	background-repeat: no-repeat;
-	background-position: 0 7px;
+}
+
+p{
+	color: #5d5d5d;
+	font-size: 12px;
+	line-height: 15px;
 }
 
 /* Helpers */
@@ -108,12 +125,6 @@ h2{
 }
 
 /* Main content */
-#mainContent p{
-	color: #5d5d5d;
-	font-size: 12px;
-	line-height: 15px;
-}
-
 #box-benefits-list{
 	list-style: none;
 	margin: 0;
@@ -156,4 +167,16 @@ h2{
 
 .box-img + .box-img{
 	margin-left: 34px;
+}
+
+/* Information section */
+#blog-updates{
+	width: 660px;
+	float: left;
+	margin-right: 80px;
+}
+
+#connect-with-us{
+	width: 220px;
+	float: right;
 }
