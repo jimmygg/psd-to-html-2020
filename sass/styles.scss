@@ -1,0 +1,19 @@
+//Setting
+@import './config/setting';
+@import './config/mixin';
+
+// Partials
+@import './partial/menu';
+@import './partial/footer';
+
+body{
+	background-color: $color;
+	margin: $size + $size;
+}
+
+// .text-active{
+// 	color: $color;
+// }
+
+
+
