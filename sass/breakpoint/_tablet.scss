@@ -1,0 +1,13 @@
+// 
+// Styles Tablet
+// 
+@media(max-width: 1023px){
+	#nav-list{
+		display: none;
+	}
+	.nav-link-menu{
+		text-align: right;
+		margin-top: 45px;
+		display: block;
+	}
+}
