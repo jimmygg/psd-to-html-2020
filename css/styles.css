@@ -304,11 +304,19 @@ template {
   display: none; }
 
 /* Global */
+html {
+  font-size: 16px; }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   border-top: 17px solid #090909;
-  margin: 0;
-  font-size: 16px; }
+  margin: 0; }
+
+.em {
+  font-size: 2em; }
+
+.rem {
+  font-size: 2rem; }
 
 h2 {
   font-size: 1.125em;
