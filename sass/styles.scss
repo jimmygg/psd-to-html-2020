@@ -22,14 +22,21 @@ body{
 
 }
 
+// 
+// Formula em
+// 
+// actual / parent = em
+
 h2{
-	font-size: 18px;
+	// 18 / 16
+	font-size: 1.125em;
 	padding-left: 30px;
 	background-position: 0 7px;
 }
 
 h3{
-	font-size: 12px;
+	// 12 / 16
+	font-size: 0.75em;
 	padding-left: 23px;
 	background-size: 8px;
 	background-position: 0 5px;
@@ -45,7 +52,8 @@ h2,h3{
 
 p{
 	color: #5d5d5d;
-	font-size: 12px;
+	// 12 / 16
+	font-size: 0.75em;
 	line-height: 15px;
 }
 
