@@ -37,7 +37,9 @@ body{
 // 
 // rem toma siempre como padre siempre el font size del html
 // em toma su container padre
-.parent{}
+.parent{
+	font-size: 32px;
+}
 
 .em{
 	font-size: 2em;
