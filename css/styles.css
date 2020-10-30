@@ -420,6 +420,12 @@ p {
   max-width: 100%;
   width: 100%; }
 
+#slider-bg-img {
+  height: 400px;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /* Main content */
 #box-benefits-list {
   list-style: none;
